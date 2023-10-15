@@ -11,20 +11,20 @@
 </p>
 
 <p align="center">
-   <img src="https://github.com/evertramos/images/raw/master/webproxy.jpg" />
+   <img src="https://github.com/StandardSoft/images/raw/master/webproxy.jpg" />
 </p>
 
 ## How to start 🔰
-[![shell script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://github.com/evertramos)
+[![shell script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://github.com/StandardSoft)
 
 
 1. Clone this repository using the option **_--recurse-submodules_** ⚠️
 
 ```bash
-git clone --recurse-submodules https://github.com/evertramos/nginx-proxy-automation.git proxy 
+git clone --recurse-submodules https://github.com/StandardSoft/nginx-proxy-automation.git proxy 
 ```
 
-We use submodule for [basescript](https://github.com/evertramos/basescript)
+We use submodule for [basescript](https://github.com/StandardSoft/basescript)
 
 2. 🚀 Run the script 'fresh_start.sh' from the _./proxy/bin_ folder
    
@@ -69,9 +69,9 @@ I made a tutorial video to walk you through this project:
 
 ## Server Automation 🚀
 
-Make user you try our [Server Automation](https://github.com/evertramos/server-automation)
+Make user you try our [Server Automation](https://github.com/StandardSoft/server-automation)
 
-[https://github.com/evertramos/server-automation](https://github.com/evertramos/server-automation)
+[https://github.com/StandardSoft/server-automation](https://github.com/StandardSoft/server-automation)
 
 ## Further information 📓
 
@@ -81,7 +81,7 @@ For more installation details please [click here](/docs/).
 [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/evertramos)
 [![image](https://img.shields.io/badge/picpay-21C25E?style=for-the-badge&logo=picpay&logoColor=white)](https://picpay.me/evert.ramos)
 
-[List of all supporters](https://github.com/evertramos/evertramos/blob/main/pages/supporters.md).
+[List of all supporters](https://github.com/StandardSoft/evertramos/blob/main/pages/supporters.md).
 
 ## Code Contributors
 

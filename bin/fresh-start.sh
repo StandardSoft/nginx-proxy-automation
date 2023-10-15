@@ -4,7 +4,7 @@
 #
 # Fresh Start script - set up nginx-proxy in a fresh installed server
 #
-# https://github.com/evertramos/nginx-proxy-automation
+# https://github.com/StandardSoft/nginx-proxy-automation
 #
 # Script developed by
 #   Evert Ramos <evert.ramos@gmail.com>

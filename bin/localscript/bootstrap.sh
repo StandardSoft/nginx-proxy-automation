@@ -1,6 +1,6 @@
 #-----------------------------------------------------------------------
 #
-# Server Automation - https://github.com/evertramos/server-automation
+# Server Automation - https://github.com/StandardSoft/server-automation
 #
 # Developed by
 #   Evert Ramos <evert.ramos@gmail.com>

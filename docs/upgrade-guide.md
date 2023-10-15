@@ -48,7 +48,7 @@ So, let's go. First thing first!
    
    2.4 Set the **basescript** submodule
 
-   If you notice the submodule folder used in this project ([basescript](https://github.com/evertramos/basescript/)) 
+   If you notice the submodule folder used in this project ([basescript](https://github.com/StandardSoft/basescript/)) 
    is present in the master branch we just checkout, but it is empty, so we need to fix it (init and update).
 
    ```bash
@@ -130,4 +130,4 @@ So, let's go. First thing first!
     $ rm docker-compose-old.yml .env-old
     ```
 
-> If you get any erros when updating please post on the [**upgrade discussion**](https://github.com/evertramos/basescript/discussions/5) (avoid creating new issues). 
+> If you get any erros when updating please post on the [**upgrade discussion**](https://github.com/StandardSoft/basescript/discussions/5) (avoid creating new issues). 

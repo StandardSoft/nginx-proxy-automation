@@ -7,13 +7,13 @@ auto renewing Let´s Encrypt certificates! ❤️
 
 We strongly recommend you (please do! 🙏) to read all documentation before starting in production as well as the [nginx-proxy docs](https://github.com/nginx-proxy/nginx-proxy).
 
-> To access the previous version of this project please access [version 0.4](https://github.com/evertramos/nginx-proxy-automation/tree/v0.4).
+> To access the previous version of this project please access [version 0.4](https://github.com/StandardSoft/nginx-proxy-automation/tree/v0.4).
 
 ### Upgrading from previous version
 
 If you are upgrading from the previous version please follow the guide below carefully:
 
-https://github.com/evertramos/nginx-proxy-automation/blob/master/docs/upgrade-guide.md
+https://github.com/StandardSoft/nginx-proxy-automation/blob/master/docs/upgrade-guide.md
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ In order to use this compose file (docker-compose.yml) you must have:
 
 3. Docker-compose installed (https://docs.docker.com/compose/install/)
 
-> I have an [easy-server](https://github.com/evertramos/easy-server) for myself which I use to install 
+> I have an [easy-server](https://github.com/StandardSoft/easy-server) for myself which I use to install 
 > docker and docker-compose in new servers and some aliases and other stuff. Feel free to use it, **but**
 > it is not related to this repo and maintainance it's for my own use only.  Check './install/docker' folder.
 
@@ -43,11 +43,11 @@ Also, you will need to make sure you have:
 1. Clone this repository **using the option _--recurse-submodules_**:
 
 ```bash
-git clone --recurse-submodules https://github.com/evertramos/nginx-proxy-automation.git proxy 
+git clone --recurse-submodules https://github.com/StandardSoft/nginx-proxy-automation.git proxy 
 ```
 
 > Make sure you use the option '--recurse-submodules' once we use an external module in this project, please check 
-> [basescript](https://github.com/evertramos/basescript)
+> [basescript](https://github.com/StandardSoft/basescript)
 
 > Please note we use 'proxy' as folder at the end. But you can change it to whatever fits you better  
 
@@ -161,7 +161,7 @@ Where *${NGINX_WEB}* is your proxy container name, which in the original `.env` 
 
 5. **sudo** options
 
-If you need to save the nginx-proxy data files in a folder which the user running 'fresh-start.sh' script does not have access, you might accomplish that using _sudo_. In order to allow the script to run some commands with _sudo_ you need to set _true_ to the variable ['ALLOW_RUN_WITH_SUDO'](https://github.com/evertramos/nginx-proxy-automation/blob/d48b2477ed28cbda37738046079e35df219ba3e9/.env.sample#L20) at '.env.sample' file **before** running fresh-start.sh script, as of:
+If you need to save the nginx-proxy data files in a folder which the user running 'fresh-start.sh' script does not have access, you might accomplish that using _sudo_. In order to allow the script to run some commands with _sudo_ you need to set _true_ to the variable ['ALLOW_RUN_WITH_SUDO'](https://github.com/StandardSoft/nginx-proxy-automation/blob/d48b2477ed28cbda37738046079e35df219ba3e9/.env.sample#L20) at '.env.sample' file **before** running fresh-start.sh script, as of:
 
 ```bash
 # Allow run commands with sudo if needed
@@ -207,13 +207,13 @@ If you are using this project in production enviroment, check all license involv
 
 ## Other projects using nginx-proxy
 Following are links to docker containers using this web proxy:
-1. [docker-wordpress-letsencrypt](https://github.com/evertramos/docker-wordpress-letsencrypt)
-2. [docker-portainer-letsencrypt](https://github.com/evertramos/docker-portainer-letsencrypt)
-3. [docker-nextcloud-letsencrypt](https://github.com/evertramos/docker-nextcloud-letsencrypt)
-4. [docker-registry-letsencrypt](https://github.com/evertramos/docker-registry-letsencrypt)
+1. [docker-wordpress-letsencrypt](https://github.com/StandardSoft/docker-wordpress-letsencrypt)
+2. [docker-portainer-letsencrypt](https://github.com/StandardSoft/docker-portainer-letsencrypt)
+3. [docker-nextcloud-letsencrypt](https://github.com/StandardSoft/docker-nextcloud-letsencrypt)
+4. [docker-registry-letsencrypt](https://github.com/StandardSoft/docker-registry-letsencrypt)
 5. [gitlab-docker-letsencrypt](https://github.com/steevepay/gitlab-docker-letsencrypt)
 6. [docker-webtrees-letsencrypt](https://github.com/mstroppel/docker-webtrees-letsencrypt)
 
 ## Running this Proxy on a Synology NAS
-Please checkout this [howto](https://github.com/evertramos/nginx-proxy-automation/blob/master/docs/HOWTO-Synlogy.md).
+Please checkout this [howto](https://github.com/StandardSoft/nginx-proxy-automation/blob/master/docs/HOWTO-Synlogy.md).
 

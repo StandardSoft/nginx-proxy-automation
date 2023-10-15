@@ -4,7 +4,7 @@
 #
 # Update checksum in .env files
 #
-# Part of https://github.com/evertramos/nginx-proxy-automation
+# Part of https://github.com/StandardSoft/nginx-proxy-automation
 #
 # Script written by
 #   Evert Ramos <evert.ramos@gmail.com>

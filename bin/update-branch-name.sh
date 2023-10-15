@@ -3,7 +3,7 @@
 #
 # This script updates the branch name to 'main'
 #
-# Source: https://github.com/evertramos/nginx-proxy-automation
+# Source: https://github.com/StandardSoft/nginx-proxy-automation
 #
 
 # Get the script name and its real file path

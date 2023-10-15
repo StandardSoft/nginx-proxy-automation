@@ -4,7 +4,7 @@
 #
 # Install script - configure the requirements for this project
 #
-# https://github.com/evertramos/nginx-proxy-automation
+# https://github.com/StandardSoft/nginx-proxy-automation
 #
 # Script developed by
 #   Evert Ramos <evert.ramos@gmail.com>
@@ -26,7 +26,7 @@ BASESCRIPT_BASE_PATH=${SCRIPT_PATH}/../src/scripts
 mkdir -p ${BASESCRIPT_BASE_PATH}
 cd ${BASESCRIPT_BASE_PATH}
 rm -rf "basescript"
-git clone https://github.com/evertramos/basescript.git &> /dev/null
+git clone https://github.com/StandardSoft/basescript.git &> /dev/null
 cd basescript
 git checkout ${BASESCRIPT_VERSION} &> /dev/null
 cd ${SCRIPT_PATH}
